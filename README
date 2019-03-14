@@ -1,0 +1,16 @@
+This program simulates Conways Game of Life.
+
+The Game of Life universe is set in a 2 dimensional grid.  The cells in the life field can be in one of two states: dead or alive.  
+Each generation, the cells interact with its 8 neighbours giving rise to these 4 rules:
+   
+    A living cell with less than 2 live neighbours die (of starvation)
+    A living cell with 2-3 live neighbours live
+    A living cell with more than 3 neighbours die (of the plague)
+    A dead cell with exactly 3 neighbours become alive (by divine intervention)
+
+When running the program, copy and paste the contents of the input file (for example Sample.in). 
+The program will then simulate the life cycle of the cells.
+
+Input file:
+The first line is in the format <width> <height> <number of generations>
+The remainding lines represent the grid, with an o representing an alive cell and a . representing a dead cell
